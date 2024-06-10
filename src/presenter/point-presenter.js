@@ -44,7 +44,7 @@ export default class PointPresenter {
     });
 
     this.#editFormComponent = new PointEditorView({
-      tripPoint: point,
+      onePoint: point,
       onSubmit: this.#handleFormSubmit,
       offers: this.#offers,
       destinations: this.#destinations,
